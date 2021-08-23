@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Let's Chat App!</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="Kwitter.css">
+
+<script src="Kwitter.js"></script>
+</head>
+<body>
+    
+    <center>
+        <br>
+        
+        <marquee scrollamount="27" id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();"> Welcome to Kwitter! </marquee>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="col-lg-4 col-sm-8 col-xs-11 login_div">
+			<h2> Login to Kwitter!</h2>
+			<label>Username :</label>
+			<input type="text" id="user_name" placeholder="Enter your name!">
+			<br>			
+            <button id="login_button" onclick="addUser()">Log in!</button>
+		</div>
+        </center>
+</body>
+</html>

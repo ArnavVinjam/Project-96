@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:300,700');
+
+body{
+	background: darkslateblue;
+	font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+marquee{
+	background: slateblue;
+}
+
+#login_button{
+	border: 1px;
+	background: mediumslateblue;
+    padding: 10px;
+    box-shadow: 5px 5px  slateblue;
+}
+
+.login_div
+	{
+		float: none;
+		background: mediumslateblue;
+		padding: 2em;
+		box-shadow: 20px 20px slateblue;
+	}
+	

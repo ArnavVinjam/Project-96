@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Let's Chat App!</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="Kwitter_room.css">
+
+<script src="Kwitter_room.js"></script>
+</head>
+<body>
+
+    <button onclick="logout()" id="logout" class="glyphicon glyphicon-log-out"> Logout!</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center>
+        <h1 class="col-lg-4 col-sm-8 col-xs-11 header">	
+			Kwitter
+		</h1>
+        
+        <h3 class="color-white" id="user_name"></h3>
+		<div class="col-lg-4 col-sm-8 col-xs-11" id="input_div_room_page">
+			<label>#Add Room:</label>
+            <br>
+			<input id="room_name" placeholder="Add a room name!">
+            <br>
+            <button onclick="addRoom()">#Add Room</button>
+            <br>
+            <br>
+            <div id="output"></div>
+		</div>
+
+
+    </center>
+    </body>
+    </html>

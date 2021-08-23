@@ -1,0 +1,26 @@
+#logout{
+    float: right;
+}
+
+#sendbutton{
+    border: 1px;
+	background: mediumslateblue;
+    padding: 10px;
+    box-shadow: 5px 5px  slateblue;
+}
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+.input_div_message_page{
+    background: mediumslateblue;
+		padding: 2em;
+		box-shadow: 20px 20px slateblue;
+        position: fixed;bottom: 30px;width: 100%;
+}
+
+body{
+    background-color: darkslateblue;
+}
